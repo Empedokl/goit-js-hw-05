@@ -9,7 +9,7 @@ class Storage {
     return this.items.push(item);
   }
   removeItem(item) {
-    return this.items.filter((token) => token !== item);
+    return this.items = this.items.filter(token => token !== item);
   }
 }
 
